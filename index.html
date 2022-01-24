@@ -4,17 +4,71 @@
   <title>Ethan's Webpage</title>
   <meta charset="UTF-8">
   <meta name="viewport"	content="width=device-width, initial-scale=1">
-  <style>
+ </head>
+ <body>
+  <div class="header">
+   <h1>Ethan's Github Page</h1>
+   <p>Webpage to show off all of my projects</p>
+  </div>
+  <div class="navbar">
+   <a href="#">Personal</a>
+   <a href="#">Hackathons</a>
+   <a href="#">Game Jams</a>
+   <a href="#">Other</a>
+   <a href="#">About</a>
+   <a href="https://ethantabachneck.github.io" class="right">Site Map</a>
+   <a href="https://ethantabachneck.github.io" class="right">Home</a>
+  </div>
+  <div class="footer">
+   <h2></h2>
+  </div>
+
+ </body>
+</html>
+<style>
+/* CSS Stuff */
+ /*body*/
    body {
      font-family: Arial, Helvetica, sans-serif;
    }
-  </style>
- </head>
- <body>
-  <h1>Hello World </h1>
-  <p>Some extra <b>text</b>
- </body>
- <br>
- <img src="https://ethantabachneck.github.io/grapefruit.png">
- <br>
- <a href="https://www.github.com">Github</a>
+ /*header*/
+  .header {
+   padding: 80px; /* some padding */
+   text-align: center; /*center text*/
+   background: #1abc9c; /*green background*/
+   color: white; /*white text*/
+  }
+ /*header headings*/
+  .header h1{
+   font-size: 40 px;
+  }
+ /*navbar*/
+  .navbar {
+   overflow: hidden; /*Hide overflow*/
+   background-color: #333; /*Dark Background color*/
+  }
+ /*navbar links*/
+  .navbar a {
+   float: left; /*Keep links side by side*/
+   display: block; /*Change display to block*/
+   color: white; /*White text*/
+   text-align: center; /*centering*/
+   padding: 14px 20px; /*add some padding*/
+   text-decoration: none; /*remove underline*/
+  }
+ /*right-aligned link*/
+  .navbar a.right {
+  float: right; /*float a link to the right*/
+  }
+ /*Dynamic color change*/
+  .navbar a:hover {
+   background color: #ddd; /*grey background*/
+   color: black; /*Black text*/
+  }
+ /*footer*/
+  .footer{
+   padding: 20px;
+   text-align: center;
+   background: #ddd;
+  }
+</style>
